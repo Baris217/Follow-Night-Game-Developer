@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://nv0yrwg0qmfq"]
+
+[ext_resource type="Script" uid="uid://b5aa72en1q5ea" path="res://enes/scripts/player.gd" id="1_3647p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(32, 32)
+
+[node name="Player" type="CharacterBody2D" unique_id=668346013]
+script = ExtResource("1_3647p")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=60322253]
+offset_right = 32.0
+offset_bottom = 32.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1343195740]
+position = Vector2(16, 16)
+shape = SubResource("RectangleShape2D_g4v7s")
