@@ -19,5 +19,43 @@ color = Color(0, 0, 0, 1)
 position = Vector2(445.5, 21)
 shape = SubResource("RectangleShape2D_g4v7s")
 
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=1686745126]
+position = Vector2(121, -249)
+rotation = 1.5707964
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D3" unique_id=1727389668]
+offset_right = 891.0
+offset_bottom = 42.0
+color = Color(0, 0, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=1798305570]
+position = Vector2(445.5, 21)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="." unique_id=1666583650]
+position = Vector2(324, -406)
+rotation = 1.5707964
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D4" unique_id=741593810]
+offset_right = 891.0
+offset_bottom = 42.0
+color = Color(0, 0, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4" unique_id=1307895517]
+position = Vector2(445.5, 21)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=401022949]
+position = Vector2(607, 398)
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D2" unique_id=1951054755]
+offset_right = 891.0
+offset_bottom = 42.0
+color = Color(0, 0, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=35340854]
+position = Vector2(445.5, 21)
+shape = SubResource("RectangleShape2D_g4v7s")
+
 [node name="Player" parent="." unique_id=668346013 instance=ExtResource("1_jepyw")]
-position = Vector2(304, 451)
+position = Vector2(354, 544)
